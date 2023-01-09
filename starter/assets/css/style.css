@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 100px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+ 
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: goldenrod;#
+    color: white;
+  }
+
+ul {
+
+}
+
+/* unordered list- for moving individual links in the navigation menu */
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height:50px;
+  
+  }
+ul li a {
+
+}/* unorderd list- anchor-link,for styling text in the menu */
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Tahoma;
+    color:whitesmoke;
+    padding:0 20px;
+    text-shadow: #2a607c;
+    }
+
+
+
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+
+
+.content {
+    width: 1000px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 280px;
+    height: 2200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: goldenrod;
+    
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color:white;
+    padding-top: 30px;
+
+    
+    
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+    padding-top: 400px;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+    padding-top: 450px;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top:  5px;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top 400px;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* resized page,height & padding for better visibility*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 120px;
+    height: 720px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+ 
+    color: #ffffff;
+}
+/* relocated image closer  relevant text*/
+.search-engine-optimization img {
+    max-height: 300px;
+    padding-right: 40px;
+    
+}
+
+
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding-top: 100px;
+    height: 720px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.online-reputation-management img {
+    max-height: 320px;
+    padding-right: 40px;
+    
+}
+.float-right {
+    float: left;
+    margin-left: 20px;
+}  
+
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding-top: 100px;
+    height: 720px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+    color: #ffffff;
+}
+
+
+.social-media-marketing img {
+    max-height: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
